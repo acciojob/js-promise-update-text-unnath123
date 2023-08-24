@@ -2,7 +2,7 @@
 
 let p = new Promise((resolve,reject)=>{
   setTimeout(() => {
-    resolve("Hello World!")
+    resolve("Hello world!")
   }, 1000);
 })
 p.then((data)=>{
